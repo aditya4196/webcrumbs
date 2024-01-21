@@ -1,3 +1,3 @@
 ## Context in WebCrumbs
 
-This is the directory with general resources and assets of WebCrumbs.
+This is the directory with general assets of WebCrumbs.
