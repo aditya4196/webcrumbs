@@ -1,3 +1,5 @@
-.text-h1{
-    color: red;
+:root {
+    padding: 2em;
+    background-color: red;
 }
+

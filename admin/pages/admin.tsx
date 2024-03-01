@@ -1,10 +1,13 @@
-import { Layout } from "@/shared/layout/Layout";
-import Dashboard from "@/shared/dashboard/Dashboard";
+import { Layout } from "@/components/layout/Layout";
+import Dashboard from "@/components/dashboard/Dashboard";
+import { SessionProvider } from "next-auth/react";
 
 export default function Home() {
   return (
     <Layout>
-      <Dashboard />
+      <SessionProvider> {/* To modify session options pass props to the session provider component */}
+        <Dashboard />
+      </SessionProvider>
     </Layout>
   );
 }
